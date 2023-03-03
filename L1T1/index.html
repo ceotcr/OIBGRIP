@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan Sapkal's TCRflix</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <nav id="topbar">
+        <a class="brand" href="#">
+            <h1>TCRFLIX</h1>
+        </a>
+        <ul id="navitems">
+            <li class="navlink">
+                <a href="#hot">Trending</a>
+            </li>
+            <li class="navlink">
+                <a href="#why-us">Why Us?</a>
+            </li>
+            <li class="navlink">
+                <a href="#genres">Genres</a>
+            </li>
+            <li class="navlink">
+                <a href="#features">Features</a>
+            </li>
+            <li class="navlink">
+                <a href="#app">App</a>
+            </li>
+            <li class="navlink">
+                <button class="btn navlink">
+                    Sign In
+                </button>
+            </li>
+        </ul>
+        <img id="nav-toggler" src="./assets/images/icons/menu.png" alt="menu">
+    </nav>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Watch the latest movies, TV shows, and award-winning Webflix Originals
+                <br> <span class="title">Anytime, anywhere.</span>
+            </h1>
+            <form action="" onsubmit="preventDefault();">
+                <div class="input-group">
+                    <input type="email" class="input" id="Email" name="Email" placeholder="yourmail@example.com"
+                        autocomplete="email">
+                    <input class="button--submit" value="Get Started" type="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="hot">
+        <h1 class="section-title">What World Is Streaming Right Now</h1>
+        <br><br>
+        <div class="row">
+            <div class="card">
+                <img class="card-img" src="./assets/images/posters/avatar2_poster.jpg" alt="">
+                <div class="textBox">
+                    <p class="text head">Avatar 2</p>
+                    <span>(2022)</span>
+                    <button class="btn">Watch Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./assets/images/posters/the_last_of_us_poster.jpeg" alt="">
+                <div class="textBox">
+                    <p class="text head">The Last Of Us</p>
+                    <span>(Ongoing)</span>
+                    <button class="btn">Watch Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./assets/images/posters/peaky_blinders_poster.jpg" alt="">
+                <div class="textBox">
+                    <p class="text head">Peaky Blinders</p>
+                    <span>(Season 6)</span>
+                    <button class="btn">Watch Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./assets/images/posters/Pathaan_film_poster.webp" alt="">
+                <div class="textBox">
+                    <p class="text head">Pathaan</p>
+                    <span>(2023)</span>
+                    <button class="btn">Watch Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="why-us">
+        <h1 class="title">
+            Better than,
+        </h1>
+        <h1 class="section-title">
+            Well... Everything, Cause Why Not!
+        </h1>
+        <div class="row">
+            <lottie-player src="./assets/animations/primevideo.json" background="transparent" speed="1" loop
+                autoplay></lottie-player>
+            <lottie-player src="./assets/animations/netflix.json" background="transparent" speed="1" loop
+                autoplay></lottie-player>
+            <lottie-player src="./assets/animations/disneyplus.json" background="transparent" speed="1" loop
+                autoplay></lottie-player>
+            <lottie-player src="./assets/animations/googletv.json" background="transparent" speed="1" loop
+                autoplay></lottie-player>
+        </div>
+    </section>
+    <hr>
+    <section id="genres">
+        <h1 class="section-title">
+            Something For Everyone...
+        </h1>
+        <br><br>
+        <div class="row">
+            <div class="genre-card">
+                <img src="./assets/images/genres/action.jpg" alt="">
+                <span class="genre">Action</span>
+            </div>
+            <div class="genre-card">
+                <img src="./assets/images/genres/adventure.jpg" alt="">
+                <span class="genre">Adventure</span>
+            </div>
+            <div class="genre-card">
+                <img src="./assets/images/genres/comedy.jpg" alt="">
+                <span class="genre">Comedy</span>
+            </div>
+            <div class="genre-card">
+                <img src="./assets/images/genres/epic.jpg" alt="">
+                <span class="genre">Epic</span>
+            </div>
+            <div class="genre-card">
+                <img src="./assets/images/genres/romance.jpg" alt="">
+                <span class="genre">Romance</span>
+            </div>
+            <div class="genre-card">
+                <img src="./assets/images/genres/anime.jpg" alt="">
+                <span class="genre">Anime</span>
+            </div>
+            <div class="genre-card">
+                <img src="./assets/images/genres/superhero.jpg" alt="">
+                <span class="genre">Superhero</span>
+            </div>
+            <div class="genre-card">
+                <img src="./assets/images/genres/kids.jpg" alt="">
+                <span class="genre">Kids</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="grid2x">
+
+            <div class="download">
+                <div class="downloader-box">
+                    <img src="./assets/images/got.jpg" alt="" class="thumb">
+                    <div class="downloader-content">
+                        <span class="movie-title">
+                            Game of Thrones
+                        </span> <br>
+                        <span class="status">Downloading</span>
+                    </div>
+                    <img src="./assets/images/download-icon.gif" alt="downloading">
+                </div>
+            </div>
+            <div class="content">
+                <h1 class="heading">Download & watch offline.
+                </h1>
+                <p class="description">
+                    Save your favourites easily and always have something to watch.
+                </p>
+            </div>
+        </div>
+
+        <div class="grid2x reverse">
+            <div class="content">
+                <h1 class="heading">Watch everywhere.
+                </h1>
+                <p class="description">
+                    Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                </p>
+            </div>
+
+            <lottie-player src="./assets/animations/multidevice.json" background="transparent" speed="0.7" loop
+                autoplay></lottie-player>
+        </div>
+
+        <div class="grid2x">
+            <img src="./assets/images/coco.png" alt="">
+            <div class="content">
+                <h1 class="heading">Create profiles for children.
+                </h1>
+                <p class="description">
+                    Send children on adventures with their favourite characters in a space made just for them—free with
+                    your membership.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="app">
+        <div class="grid2x reverse">
+            <div class="content">
+                <h1 class="heading">Download the app.
+                </h1>
+                <p class="description">
+                    Watch on the go, or get the full experience on your TV at home.
+                </p>
+                <div class="app-download-btns">
+                    <img src="./assets/images/icons/App-store.svg" alt="">
+                    <img src="./assets/images/icons/Google-play.png" alt="">
+                </div>
+            </div>
+            <img src="./assets/images/app.png" alt="">
+        </div>
+    </section>
+
+    <hr>
+
+    <footer id="footer">
+
+        <div class="footer-right">
+
+            <a href="https://instagram.com/btw.its.chetan" target="_blank"><img
+                    src="./assets/images/icons/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/thechetanraje/" target="_blank"><img
+                    src="./assets/images/icons/linkedin.png" alt=""></a>
+            <a href="https://github.com/ceotcr" target="_blank"><img src="./assets/images/icons/githubb.png" alt=""></a>
+            <a href="https://behance.net/tcrdev" target="_blank"><img src="./assets/images/icons/behance.png"
+                    alt=""></a>
+
+        </div>
+
+        <div class="footer-left">
+
+            <div class="footer-links">
+                <a href="#">Home</a>
+
+                <a href="#">Contact</a>
+
+                <a href="#">Careers</a>
+
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">EULA</a>
+            </div>
+
+            <span id="cprt">&copy; 2023 TCRFlix, All Rights Reserved.</span>
+        </div>
+
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>
