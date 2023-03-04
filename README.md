@@ -52,7 +52,7 @@ This repository is licensed under the MIT License. See [Licence](./LICENSE) for 
 
 ## Credits
 
-Images by - [Freepik](https://freepik.com)
-Icons by - [Flaticon](https://flaticon.com)
-Animations by - [Lottiefiles](https://lottiefiles.com)
-Posters by - Respective Owners
+- Images by - [Freepik](https://freepik.com)
+- Icons by - [Flaticon](https://flaticon.com)
+- Animations by - [Lottiefiles](https://lottiefiles.com)
+- Posters by - Respective Owners
