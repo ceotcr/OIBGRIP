@@ -49,3 +49,10 @@ Contributions to this repository are not accepted as the tasks are assigned by t
 ## License
 
 This repository is licensed under the MIT License. See [Licence](./LICENSE) for details.
+
+## Credits
+
+Images by - [Freepik](https://freepik.com)
+Icons by - [Flaticon](https://flaticon.com)
+Animations by - [Lottiefiles](https://lottiefiles.com)
+Posters by - Respective Owners
