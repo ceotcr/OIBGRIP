@@ -20,7 +20,7 @@ The tasks in this repository include:
 
 ## Solutions
 
-- Landing Page - (TCRFlix)[https://ceotcr.github.io/OIBGRIP/L1T1/]
+- Landing Page - [TCRFlix](https://ceotcr.github.io/OIBGRIP/L1T1/)
 - Portfolio Site - Coming Soon
 - Temparature Converter Site - Coming Soon
 
