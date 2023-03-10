@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Temparature Converter</title>
+</head>
+
+<body>
+    <section id="main">
+        <h1 class="title">Temperature Converter</h1>
+        <div class="grid2x">
+            <div class="form">
+                <div class="input">
+                    <label for="temp">Enter Temperature</label>
+                    <input type="number" name="temp" id="temp" placeholder="Enter Temperature">
+                </div>
+                <div class="input sel">
+                    <label for="temp-type">Select Temperature Type: </label>
+                    <select name="temp-type" id="temp-type">
+                        <option value="celsius">Celsius</option> &nbsp;
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+                <div class="input sel">
+                    <label for="convert-to">Convert To: </label>
+                    <select name="convert-to" id="convert-to">
+                        <option value="celsius">Celsius</option> &nbsp;
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <input id="convert-bt" type="submit" value="Convert">
+                </div>
+                <br>
+                <br>
+                <div class="input">
+                    <label for="converted-temp">Converted Temperature: </label>
+                    <input type="text" name="converted-temp" id="converted-temp" placeholder="Converted Temperature"
+                        disabled>
+                </div>
+            </div>
+            <div class="content">
+                <h3 class="heading">Introduction:</h3>
+                <p class="intro-txt">
+                    Welcome to our temperature converter! This tool will help you convert temperatures between Celsius
+                    and
+                    Fahrenheit.
+                    Simply enter the temperature value you want to convert, choose the unit of measurement (Celsius or
+                    Fahrenheit), and
+                    click the "Convert" button.
+                </p>
+                <h3 class="heading">Instruction:</h3>
+                <ol class="instructions">
+                    <li>Enter the temperature value you want to convert in the "Temperature" field.</li>
+                    <li>Choose the unit of measurement for the temperature you entered (Celsius or Fahrenheit or Kelvin)
+                        using
+                        the dropdown
+                        menu.
+                    </li>
+                    <li>Click the "Convert" button to see the converted temperature in the other unit of measurement.
+                    </li>
+                </ol>
+
+                <h3 class="heading">Example:</h3>
+                <p class="eg">
+                    If you enter "32" in the "Temperature" field and choose Celsius from the dropdown menu, the
+                    converted
+                    temperature will
+                    be "89.6" in Fahrenheit.
+                </p>
+
+                <h3 class="heading">Disclaimer:</h3>
+                <p class="disclaimer">
+                    Please note that this tool provides approximate conversions and may not be accurate in all
+                    situations.
+                    Always
+                    double-check your calculations and use a thermometer for precise temperature readings.
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

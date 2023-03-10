@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(../assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: #FFFFFF;
+    --dark: rgb(44, 40, 47);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.2 !important;
+}
+
+body {
+    background: var(--dark);
+    color: var(--light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+.title {
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.heading {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+.grid2x {
+    padding: 2rem min(2rem, 5vw);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    place-content: center;
+    grid-gap: min(2rem, 5vw);
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../assets/images/bg.jpg) no-repeat center center/cover;
+}
+
+.form {
+    width: 100%;
+    max-width: 700px;
+    padding: 2rem;
+    background: var(--dark);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form input {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    background: var(--light);
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.form input[type="submit"] {
+    color: var(--dark);
+    background: rgb(255, 214, 32);
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background: rgb(255, 175, 46);
+}
+
+.form input[type="submit"]:active {
+    background: rgb(255, 214, 32);
+}
+
+.form select {
+    display: inline-block;
+    margin: 0 1rem;
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    background: var(--light);
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.form .input.sel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ol {
+    margin-left: min(2rem, 5vw);
+}
+
+p {
+    margin-left: min(2rem, 5vw);
+}
+
+
+@media screen and (max-width: 1080px) {
+    .grid2x {
+        grid-template-columns: 100%;
+    }
+}
