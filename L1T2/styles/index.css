@@ -1,0 +1,142 @@
+#hero {
+    padding: 0;
+    padding-top: 4rem;
+    height: fit-content;
+    width: 100%;
+}
+
+#hero .grid {
+    overflow: hidden;
+}
+
+#hero img {
+    object-fit: cover;
+    object-position: top;
+    filter: brightness(1.1);
+    --animate-duration: 50000ms;
+    border-bottom: 3px solid black;
+}
+
+hr {
+    width: 90%;
+}
+
+#hero .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    place-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.hero-content {
+    padding: min(3rem, 5vw);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero-content .call-to-action {
+    border-radius: 0 2rem 2rem;
+}
+
+
+#service .row {
+    gap: min(3rem, 5vw);
+}
+
+#service {
+    border-radius: 0 0 min(2rem, 5vw) min(2rem, 5vw);
+    background: linear-gradient(white 50%, #FFEE17 50%);
+    color: black;
+}
+
+.services {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 280px;
+    padding: 1rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: transform 0.3s ease;
+}
+
+.services:hover {
+    box-shadow: rgb(0, 0, 0) 0px 30px 40px 0px;
+    transform: translateY(-1vh);
+}
+
+.serv-info {
+    margin: 5px 10px;
+}
+
+iframe {
+    width: min(80%, 512px);
+    min-height: 512px;
+}
+
+.content {
+    width: min(80%, 512px);
+}
+
+.case-studies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: min(3rem, 5vw);
+    width: 100%;
+}
+
+.case-studies .row img {
+    border-radius: 0.5rem !important;
+    object-fit: cover;
+    max-width: 480px;
+    max-height: 400px;
+    object-position: top;
+}
+
+#contact .title {
+    text-align: center;
+}
+
+#footer {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    #hero .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero-content .call-to-action {
+        border-radius: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    .services {
+        max-width: 380px;
+        width: 90%;
+    }
+
+}
