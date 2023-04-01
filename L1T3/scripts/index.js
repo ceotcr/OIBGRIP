@@ -4,7 +4,7 @@ document.querySelector('#temp-type').onchange = convert;
 document.querySelector('#convert-to').onchange = convert;
 document.querySelector('#convert-bt').onclick = convert;
 function convert() {
-    let value = input.value;
+    let value = parseInt(input.value);
     let result = 0;
     switch (document.querySelector('#temp-type').value) {
         case 'celsius':
