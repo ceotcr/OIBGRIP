@@ -21,8 +21,8 @@ The tasks in this repository include:
 ## Solutions
 
 - Landing Page - [TCRFlix](https://ceotcr.github.io/OIBGRIP/L1T1/)
-- Portfolio Site - Coming Soon
-- Temparature Converter Site - Coming Soon
+- Portfolio Site - [A Simple Portfolio](https://ceotcr.github.io/OIBGRIP/L1T2/)
+- Temparature Converter Site - [A Temparature Converter](https://ceotcr.github.io/OIBGRIP/L1T3/)
 
 ## Technologies Used
 
@@ -54,5 +54,7 @@ This repository is licensed under the MIT License. See [Licence](./LICENSE) for 
 
 - Images by - [Freepik](https://freepik.com)
 - Icons by - [Flaticon](https://flaticon.com)
-- Animations by - [Lottiefiles](https://lottiefiles.com)
+- CSS Animation Library - [Animate.css](https://animate.style)
+- Typing Animations - [Typed.js](https://www.typeitjs.com)
+- Animated Assets by - [Lottiefiles](https://lottiefiles.com)
 - Posters by - Respective Owners
